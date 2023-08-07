@@ -24,10 +24,7 @@ module "azure-mission-critical-staging" {
 }
 
 
-module "azure-corp-shared-staging" {
- source = "./modules/azure/staging/azure-corp-shared-staging"
- subscription = "92f20396-4c9c-499e-99e1-b0fcd5116acf"
-}
+
 
 
 //***** Dev:
